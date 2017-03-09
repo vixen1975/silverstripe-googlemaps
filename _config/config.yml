@@ -1,0 +1,6 @@
+---
+Name: googlemapsconfig
+---
+MapPage:
+  api_key: 'AIzaSyDXG9NWRVWOggnCqAqRj9a9DLhgpErVYwg'
+  show_search : true

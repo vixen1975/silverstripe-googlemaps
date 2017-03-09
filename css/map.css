@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.gm-holder {
+  height: 500px;
+}
+.ssgm-infobox-img {
+  max-width:250px !important;
+}
+.ssgm-infobox p {
+  font-size: 16px; 
+}
+
