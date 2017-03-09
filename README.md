@@ -7,7 +7,7 @@ You can select from one of four predefined map styles, however this can be easil
 
 When adding a Map Page you need to set the starting Latitude, Longitude and Zoom of the map. (see https://support.google.com/maps/answer/18539?co=GENIE.Platform%3DDesktop&hl=en for how to get the lat/long of a location). You can also upload a marker image for the places on your map.
 
-Markers are added as DataObjects and can contain a title, content, image for the Infobox on the map.
+Markers are added as DataObjects and can contain a title, content, image for the Infobox on the map. When markers are saved an xml file is created in the assets/xml-files/ folder. The map script then reads this xml file.
 
 #Requirements
 Silverstripe 3.3
