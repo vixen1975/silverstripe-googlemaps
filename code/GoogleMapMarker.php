@@ -8,13 +8,13 @@
     );
   
     private static $has_one = array(
-        'Map' => 'MapPage',
+        'Map' => 'GoogleMapsPage',
         'Image' => 'Image'
     );
   
     function onAfterWrite(){	   
        parent::onAfterWrite();
-       $markers = MapMarker::get()->sort('SortOrder');
+       $markers = GoogleMapMarker::get()->sort('SortOrder');
        if($markers){
          //create the markers.xml file for markers
          $dom = new DOMDocument("1.0");
