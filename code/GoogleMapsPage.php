@@ -1,4 +1,4 @@
-<?php class MapPage extends Page {
+<?php class GoogleMapsPage extends Page {
     private static $db = array(
         'ColourScheme' => 'Enum("Dark, Light, Normal, Colourful", "Normal")',
         'StartingLat' => 'Text',
@@ -12,7 +12,7 @@
     );
   
     private static $has_many = array(
-       'MapMarkers' => 'MapMarker'
+       'MapMarkers' => 'GoogleMapMarker'
     );
     
     function onBeforeWrite(){	        
@@ -37,19 +37,19 @@
     }
 }
 
-class MapPage_Controller extends Page_Controller {
+class GoogleMapsPage_Controller extends Page_Controller {
   
    public function init() {
       parent::init();
-      $api = Config::inst()->get('MapPage', 'api_key');
-      $show_search = Config::inst()->get('MapPage', 'show_search');
-      Requirements::css('google-maps/css/map.css');
+      $api = Config::inst()->get('GoogleMapsPage', 'api_key');
+      $show_search = Config::inst()->get('GoogleMapsPage', 'show_search');
+      Requirements::css('silverstripe-googlemaps/css/map.css');
       Requirements::javascript('framework/thirdparty/jquery/jquery.js');
-      Requirements::javascript('google-maps/javascript/map.js');
+      Requirements::javascript('silverstripe-googlemaps/javascript/map.js');
 	}
   
   public function ApiKey(){
-    $api = Config::inst()->get('MapPage', 'api_key');
+    $api = Config::inst()->get('GoogleMapsPage', 'api_key');
     return $api;
   }
   
