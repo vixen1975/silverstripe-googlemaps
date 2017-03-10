@@ -1,11 +1,10 @@
 
 {
-	"name": "vixen1975/social-media",
-	"description": "Add social media icons from Font Awesome to your project.",
+	"name": "vixen1975/silverstripe-googlemaps",
+	"description": "Adds a dynamic Google Map to a page with the ability to add markers and infoboxes.",
 	"keywords": [
 		"silverstripe",
-		"social media",
-		"font-awesome"
+		"Google Maps"
 	],
 	"type": "silverstripe-module",
 	"require": {
