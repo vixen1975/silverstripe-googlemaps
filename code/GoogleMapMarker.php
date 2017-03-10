@@ -1,4 +1,4 @@
-<?php class MapMarker extends DataObject {
+<?php class GoogleMapMarker extends DataObject {
     private static $db = array(
         'Latitude' => 'Text',
         'Longitude' => 'Text',
