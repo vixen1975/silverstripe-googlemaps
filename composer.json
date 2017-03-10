@@ -1,0 +1,22 @@
+
+{
+	"name": "vixen1975/social-media",
+	"description": "Add social media icons from Font Awesome to your project.",
+	"keywords": [
+		"silverstripe",
+		"social media",
+		"font-awesome"
+	],
+	"type": "silverstripe-module",
+	"require": {
+		"silverstripe/cms": "^3.1.0"
+	},
+	"authors": [
+		{
+			"name": "Vicki Coupe",
+			"email": "vicki@perthwebdev.com.au"
+		}
+	],
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
