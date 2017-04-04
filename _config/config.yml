@@ -1,6 +1,6 @@
 ---
-Name: googlemapsconfig
+Name: GoogleMapsPage
 ---
-MapPage:
+GoogleMapsPage:
   api_key: ''
   show_search : true
