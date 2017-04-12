@@ -1,6 +1,6 @@
 var map;
 var urlSuffix = (new Date).getTime().toString();
-var siteurl = 'http://rr.perthwebdev.com.au/assets';
+var siteurl = document.location.origin;
 var path = siteurl + '/xml-files/';
 var start_zoom = $("#start_zoom").val(); 
 var start_lat = $('#start_lat').val();
